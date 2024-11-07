@@ -17,24 +17,29 @@
 <body>
 
 <header>
-<nav class="navbar navbar-expand-lg bg-dark">
+<nav class="navbar navbar-expand-lg bg-dark"> <!-- Navbar -->
     <div class="container-fluid ">
     <img src="./img/duck.png" alt="ducklogo" style="max-width: 60px;">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color: gray;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color: gray;"> 
+        <!-- 
+        Da approfondire ulteriormente
+        data-bs-toggle attiva il plugin di collasso quando il pulsnate viene cliccato
+        data-bs-target permette di far entrare nell'hamburger menu i link della navbar
+        -->
         <span class="navbar-toggler-icon" style="filter: invert(100%);"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item px-1">
+          <li class="px-1">
             <a class="nav-link link-light" href="#">Catalogo Libri</a>
           </li>
-          <li class="nav-item px-1">
+          <li class="px-1">
             <a class="nav-link link-secondary" href="#">Anagrafica utenti</a>
           </li>
-          <li class="nav-item px-1">
+          <li class="px-1">
             <a class="nav-link link-secondary" href="#">Storico Prestiti</a>
           </li>
-          <li class="nav-item px-1">
+          <li class="px-1">
             <a class="nav-link link-secondary" href="#">Help</a>
           </li>
 
@@ -188,8 +193,8 @@
         </div>
 
         
-<section class="d-lg-flex flex-column px-3">
-        <div class="row my-2"> <!-- todo -->
+<section class="d-lg-flex flex-column mx-lg-4">
+        <div class="row my-2 w-100"> <!-- todo -->
             <div class="col">
                 <div class="card">
                     <div class="card-header h5">Todo</div>
@@ -208,7 +213,7 @@
             </div>
         </div>
 
-        <div class="row my-2">  <!-- FAQ-->
+        <div class="row my-2 w-100">  <!-- FAQ-->
             <div class="col">
                 <div class="card">
                     <div class="card-header h5">F.A.Q.</div>
